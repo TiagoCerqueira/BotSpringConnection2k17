@@ -1,0 +1,44 @@
+{
+  "name": "spring-co-bot",
+  "version": "1.0.0",
+  "description": "Un bot fb pour le spring co",
+  "author": "Tiago Cerqueira <tiago.cerqueira@live.fr>",
+  "contributors": [
+    {
+      "name": "Tiago Cerqueira",
+      "email": "tiago.cerqueira@live.fr"
+    }, {
+      "name": "Axel Leroy",
+      "email": "axel@leroy.sh"
+    }
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TiagoCerqueira/SlackBotsSpring"
+  },
+  "bugs": {
+    "url": "https://github.com/TiagoCerqueira/SlackBotsSpring/issues"
+  },
+  "keywords": [
+    "bot",
+    "fb",
+    "spring"
+  ],
+  "dependencies": {
+    "botkit": "*",
+    "dashbot": "^0.8.4",
+    "dotenv": "*",
+    "express": "^4.14",
+    "request": "2.81.x"
+  },
+  "preferGlobal": true,
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.2.2"
+  }
+}
